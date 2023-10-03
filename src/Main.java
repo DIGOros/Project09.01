@@ -126,6 +126,8 @@ public class Main {
 
         // 3. Object creation (private method cannot be called outside the class)
         MyClassWithPrivateMethod obj3 = new MyClassWithPrivateMethod();
+        // Uncommenting the next line will result in a compilation error.
+        // obj3.privateMethod();
 
         // 4. Object creation with constructor (constructor is called during object creation)
         MyClassWithConstructor obj4 = new MyClassWithConstructor();
